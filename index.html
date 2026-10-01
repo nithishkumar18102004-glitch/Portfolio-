@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nithish S | Portfolio</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#f5f8fb;color:#17202a;line-height:1.6}
+nav{position:fixed;top:0;width:100%;background:#fff;padding:16px 8%;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 12px #0001;z-index:10}
+.logo{font-size:22px;font-weight:bold;color:#215e85}
+nav a{margin-left:22px;text-decoration:none;color:#333;font-weight:600}
+.hero{min-height:100vh;background:#215e85;color:white;display:flex;align-items:center;padding:100px 10% 60px}
+.hero h1{font-size:54px;margin-bottom:12px}.hero h2{font-size:27px;font-weight:normal;margin-bottom:20px}
+.hero p{max-width:650px;font-size:18px}
+.btn{display:inline-block;margin-top:28px;background:white;color:#215e85;padding:12px 22px;border-radius:8px;text-decoration:none;font-weight:bold}
+section{padding:75px 10%}
+section h2{text-align:center;color:#215e85;font-size:32px;margin-bottom:35px}
+.about{max-width:850px;margin:auto;text-align:center;font-size:18px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.card{background:white;padding:25px;border-radius:14px;box-shadow:0 4px 18px #00000012}
+.card h3{color:#215e85;margin-bottom:10px}
+.skills{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.skill{background:white;padding:10px 18px;border-radius:20px;box-shadow:0 2px 10px #0001}
+.timeline{max-width:850px;margin:auto}.item{background:white;padding:22px;margin-bottom:18px;border-left:5px solid #215e85;border-radius:8px}
+footer{text-align:center;background:#17202a;color:white;padding:30px}
+.links a{margin:8px;color:#215e85;font-weight:bold;text-decoration:none}
+@media(max-width:700px){nav{padding:14px 5%}nav .navlinks{display:none}.hero h1{font-size:40px}section{padding:60px 6%}}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="logo">Nithish S</div>
+<div class="navlinks">
+<a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+</div>
+</nav>
+
+<header class="hero">
+<div>
+<h1>Nithish S</h1>
+<h2>Aspiring Developer</h2>
+<p>Aspiring developer focused on learning, innovating, and building meaningful digital solutions.</p>
+<a class="btn" href="#projects">View My Projects</a>
+</div>
+</header>
+
+<section id="about">
+<h2>About Me</h2>
+<div class="about">
+<p>I am a B.E. Electrical and Electronics Engineering student at Sri Krishna College of Engineering and Technology, graduating in 2026. I am interested in software development, IoT, web applications, and technology-driven solutions.</p>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<span class="skill">Java</span><span class="skill">C++</span><span class="skill">MySQL</span>
+<span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">Data Structures</span>
+<span class="skill">Analytical Thinking</span><span class="skill">Communication</span><span class="skill">Leadership</span>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="cards">
+<div class="card"><h3>Tyre Maintenance and Operation Application</h3><p>Developed a mobile application with maintenance and operation pages to visualize and manage sensor data. Integrated sensors with Arduino Uno for real-time data processing and wireless transmission using ESP8266.</p></div>
+<div class="card"><h3>Recipe Radar</h3><p>Developed a React-based web application for personalized recipe discovery with secure login, recipe search, feedback, contact features, dietary filters, and nutritional insights.</p></div>
+<div class="card"><h3>Hybrid Renewable EV Charging System</h3><p>Developed a solar and wind based charging system for electric vehicles with smart switching between energy sources to support continuous and efficient charging.</p></div>
+</div>
+</section>
+
+<section id="experience">
+<h2>Internships</h2>
+<div class="timeline">
+<div class="item"><h3>BSNL — Trainee</h3><p><b>June 2024 – July 2024</b></p><p>Learned about 5G, optical fiber technology, networking, broadband, telecommunication, BTS operation, computer networks, protocols, topologies, and mobile call flow.</p></div>
+<div class="item"><h3>Clarazon Technology, Coimbatore — Trainee</h3><p><b>May 2025 – June 2025</b></p><p>Worked on IoT systems and PCB design, real-time automation projects using sensors and Arduino microcontrollers, and cloud integration using Firebase.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Education</h2>
+<div class="cards">
+<div class="card"><h3>Sri Krishna College of Engineering and Technology</h3><p>B.E. Electrical and Electronics Engineering — 2026</p><p>CGPA: 8</p></div>
+<div class="card"><h3>Montfort School</h3><p>HSC — 2022 | 91%</p><p>SSLC — 2020 | 84%</p></div>
+</div>
+</section>
+
+<section>
+<h2>Certifications</h2>
+<div class="cards">
+<div class="card">Infosys C++ Certification</div><div class="card">SpringBoard Certification</div>
+<div class="card">Infosys Java Certification</div><div class="card">Spark Symposium Certification</div>
+<div class="card">SIH Hackathon</div><div class="card">Project Expo Certification</div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="about">
+<p><b>Email:</b> nithishkumar18102004@gmail.com</p>
+<p><b>Phone:</b> +91 9840828678</p>
+<p><b>Location:</b> Ariyalur, Tamil Nadu</p>
+<p class="links">LinkedIn: <span>Add your LinkedIn link</span> &nbsp; | &nbsp; GitHub: <span>Add your GitHub link</span> &nbsp; | &nbsp; LeetCode: <span>Add your LeetCode link</span></p>
+</div>
+</section>
+
+<footer>© 2026 Nithish S. All Rights Reserved.</footer>
+</body>
+</html>
